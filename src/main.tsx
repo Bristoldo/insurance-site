@@ -17,7 +17,7 @@ import './assets/lib/animate/animate.min.css';
 
 import './assets/css/style.css';
 
-import('./assets/js/main.js');
+// import './assets/js/main.js';
 
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
@@ -30,11 +30,11 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 import './assets/lib/lightbox/css/lightbox.min.css';
 
-import ('./assets/lib/owlcarousel/owl.carousel.min.js');
+// import './assets/lib/owlcarousel/owl.carousel.min.js';
 
 // import('./assets/lib/waypoints/waypoints.min.js');
 
-import('./assets/lib/wow/wow.min.js');
+// import './assets/lib/wow/wow.min.js';
 
 
 import './assets/lib/owlcarousel/assets/owl.carousel.min.css';

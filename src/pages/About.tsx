@@ -1,9 +1,5 @@
 import Team from "../components/about/Team";
-import BackToTop from "../components/layouts/BackToTop";
-import Footer from "../components/layouts/Footer";
-import Navbar from "../components/layouts/Navbar";
-import Spinner from "../components/layouts/Spinner";
-import Topbar from "../components/layouts/Topbar";
+
 export default function About() {
     return (
         <>
