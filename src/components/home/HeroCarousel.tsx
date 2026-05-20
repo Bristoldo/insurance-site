@@ -13,7 +13,12 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
+import { useTranslation } from "react-i18next";
+
 export default function HeroCarousel() {
+
+
+    const { t } = useTranslation();
 
     const [activeSlide, setActiveSlide] = useState(0);
 
@@ -70,15 +75,17 @@ export default function HeroCarousel() {
                                         <div className="text-sm-center text-md-start">
 
                                             <h4 className="text-white text-uppercase fw-bold mb-4">
-                                                Welcome To LifeSure
+                                                {t("heroCarousel.subtitle1")}
                                             </h4>
 
                                             <h1 className="display-1 text-white mb-4">
-                                                Life Insurance Makes You Happy
+                                                {t("heroCarousel.title1")}
+
                                             </h1>
 
                                             <p className="mb-5 fs-5">
-                                                Insurance solutions for your future.
+                                                {t("heroCarousel.description1")}
+
                                             </p>
 
                                         </div>
@@ -121,15 +128,16 @@ export default function HeroCarousel() {
                                         <div className="text-sm-center text-md-start">
 
                                             <h4 className="text-white text-uppercase fw-bold mb-4">
-                                                Secure Your Family Today
+                                                {t("heroCarousel.subtitle2")}
                                             </h4>
 
                                             <h1 className="display-1 text-white mb-4">
-                                                Life Insurance Makes You Happy
+                                                {t("heroCarousel.title2")}
+
                                             </h1>
 
                                             <p className="mb-5 fs-5">
-                                                Insurance solutions for your future.
+                                                {t("heroCarousel.description2")}
                                             </p>
 
                                         </div>

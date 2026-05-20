@@ -1,6 +1,10 @@
 import Team from "../components/about/Team";
 
+import { useTranslation } from "react-i18next";
 export default function About() {
+
+    const { t } = useTranslation();
+
     return (
         <>
             <main>
@@ -9,16 +13,13 @@ export default function About() {
                         <div className="row g-5">
                             <div className="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
                                 <div className="about-item-content bg-white rounded p-5 h-100">
-                                    <h4 className="text-primary">About Our Company</h4>
-                                    <h1 className="display-4 mb-4">High Range of Exploring Protection</h1>
-                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt debitis sint tempora. Corporis consequatur illo blanditiis voluptates aperiam quos aliquam totam aliquid rem explicabo,
-                                    </p>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae praesentium recusandae eligendi modi hic
-                                    </p>
-                                    <p className="text-dark"><i className="fa fa-check text-primary me-3"></i>We can save your money.</p>
-                                    <p className="text-dark"><i className="fa fa-check text-primary me-3"></i>Production or trading of good</p>
-                                    <p className="text-dark mb-4"><i className="fa fa-check text-primary me-3"></i>Our life insurance is flexible</p>
-                                    <a className="btn btn-primary rounded-pill py-3 px-5" href="#">More Information</a>
+                                    <h4 className="text-primary">{t("about.subtitle")}</h4>
+                                    <h1 className="display-4 mb-4">{t("about.title")}</h1>
+                                    {t("about.description")}
+                                    <p className="text-dark"><i className="fa fa-check text-primary me-3"></i>{t("about.q1")}</p>
+                                    <p className="text-dark"><i className="fa fa-check text-primary me-3"></i>{t("about.q2")}</p>
+                                    <p className="text-dark mb-4"><i className="fa fa-check text-primary me-3"></i>{t("about.q3")}</p>
+                                    <a className="btn btn-primary rounded-pill py-3 px-5" href="#">{t("about.more")}</a>
                                 </div>
                             </div>
                             <div className="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">

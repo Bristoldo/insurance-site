@@ -1,0 +1,61 @@
+{
+    "topBar": {
+        "location": "Trouver un emplacement",
+        "english": "Anglais",
+        "french": "Francais"
+    },
+
+    "navBar": {
+        "home": "Accueil",
+        "services": "Services",
+        "about": "À\u00A0propos",
+        "contact": "Nous contact"
+    },
+
+    "heroCarousel": {
+        "title1": "L'assurance vie vous rend heureux",
+        "subtitle1": "Bienvenue chez LifeSure",
+        "description1": "Protégez votre avenir avec nos solutions d'assurance.",
+
+        "title2": "Sécurisez votre famille pour demain",
+        "subtitle2": "Nous sommes mondiaux",
+        "description2": "Des solutions d'assurance pour votre avenir."
+    },
+
+    "home": {
+
+    },
+
+    "about": {
+        "title": "Protection d'exploration à haute portée",
+        "subtitle": "À propos de nous",
+        "description": "Nous sommes une compagnie d'assurance de confiance Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt debitis sint tempora. Corporis consequatur illo blanditiis voluptates aperiam quos aliquam totam aliquid rem explicabo Lorem ipsum dolor sit amet consectetur adipisicing elit.Beatae praesentium recusandae eligendi modi hic",
+        "q1": "Nous pouvons vous faire économiser de l'argent",
+        "q2": "Production ou commerce de biens",
+        "q3": "Notre assurance-vie est flexible",
+        "more": "More Information"
+
+    },
+
+    "services": {
+        "title": "Nous offrons les meilleurs services",
+        "subtitle": "Nos services",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.",
+
+        "service1": "Assurance vie",
+        "description1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, eum!",
+
+        "service2": "Assurance santé",
+        "description2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, eum!",
+
+        "service3": "Assurance auto",
+        "description3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, eum!",
+
+        "service4": "Assurance maison",
+        "description4": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, eum!",
+
+        "readMore": "Lire plus",
+        "moreServices": "Plus de Services"
+
+    }
+}

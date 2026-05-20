@@ -1,16 +1,20 @@
 
 import { NavLink } from "react-router-dom";
 
+import { useTranslation } from "react-i18next";
+
 
 export default function Navbar() {
+
+    const { t } = useTranslation();
     return (
         <div className="container-fluid nav-bar px-0 px-lg-4 py-lg-0">
             <div className="container">
                 <nav className="navbar navbar-expand-lg navbar-light">
-                    <a href="#" className="navbar-brand p-0">
-                        <h1 className="text-primary mb-0"><i className="fab fa-slack me-2"></i> LifeSure</h1>
+                        <NavLink to="/" className="navbar-brand p-0">
+                        <h1 className="text-primary mb-0"><i className="fab fa-slack me-2"></i>Sispens</h1>
                         {/* <img src="img/logo.png" alt="Logo">  */}
-                    </a>
+                        </NavLink>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                         <span className="fa fa-bars"></span>
                     </button>
@@ -20,22 +24,24 @@ export default function Navbar() {
                                 ? "nav-item nav-link active"
                                 : "nav-item nav-link"
                             }>
-                                Home
-                            </NavLink>
-
-                            <NavLink to="/about" className={({ isActive }) => isActive
-                                ? "nav-item nav-link active"
-                                : "nav-item nav-link"
-                            }>
-                                About
+                                {t("navBar.home")}
                             </NavLink>
 
                             <NavLink to="/services" className={({ isActive }) => isActive
                                 ? "nav-item nav-link active"
                                 : "nav-item nav-link"
                             }>
-                                Services
+                                {t("navBar.services")}
+
                             </NavLink>
+
+                            <NavLink to="/about" className={({ isActive }) => isActive
+                                ? "nav-item nav-link active"
+                                : "nav-item nav-link"
+                            }>
+                                {t("navBar.about")}
+                            </NavLink>
+
                             {/* <a href="service.html" className="nav-item nav-link">Services</a> */}
                             <div className="nav-item dropdown">
                                 <a href="#" className="nav-link" data-bs-toggle="dropdown">
@@ -46,9 +52,9 @@ export default function Navbar() {
                                     <a href="team.html" className="dropdown-item">Our team</a>
                                 </div>
                             </div>
-                            <a href="contact.html" className="nav-item nav-link">Contact</a>
+                            {/* <a href="contact.html" className="nav-item nav-link">{t("navBar.contact")}</a> */}
                             <div className="nav-btn px-3">
-                                <a href="https://htmlcodex.com/downloading/?item=3422" className="btn btn-primary py-2 px-4 ms-3 flex-shrink-0"> Buy Pro Version</a>
+                                <a href="https://htmlcodex.com/downloading/?item=3422" className="btn btn-primary py-2 px-4 ms-3 flex-shrink-0"> {t("navBar.contact")}</a>
                             </div>
                         </div>
                     </div>

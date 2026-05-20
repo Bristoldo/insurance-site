@@ -1,0 +1,66 @@
+{
+
+    "topBar": {
+        "location": "Find A Location",
+        "english": "English",
+        "french": "French"
+    },
+
+    "navBar": {
+        "home": "Home",
+        "services": "Services",
+        "about": "About",
+        "contact": "Contact Us"
+    },
+
+    "heroCarousel": {
+        "title1": "Life Insurance Makes You Happy",
+        "subtitle1": "Welcome To LifeSure",
+        "description1": "Protect your future with our insurance solutions.",
+
+        "title2": "Secure Your Family Today for Tomorrom",
+        "subtitle2": "We are global",
+        "description2": "Insurance solutions for your future."
+    },
+
+    "home": {
+
+
+    },
+
+    "team": {
+
+    },
+
+    "about": {
+        "title": "High Range of Exploring Protection",
+        "subtitle": "About Us",
+        "description": "We are a trusted insurance company helping families worldwide. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt debitis sint tempora. Corporis consequatur illo blanditiis voluptates aperiam quos aliquam totam aliquid rem explicabo Lorem ipsum dolor sit amet consectetur adipisicing elit.Beatae praesentium recusandae eligendi modi hic",
+        "q1": "We can save your money.",
+        "q2": "Production or trading of good",
+        "q3": "Our life insurance is flexible"
+    },
+
+
+    "services": {
+        "title": "We Provide Best Services",
+        "subtitle": "Our Services",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.",
+
+        "service1": "Life Insurance",
+        "description1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, eum!",
+
+        "service2": "Health Insurance",
+        "description2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, eum!",
+
+        "service3": "Car Insurance",
+        "description3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, eum!",
+
+        "service4": "Home Insurance",
+        "description4": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, eum!",
+        
+        "readMore": "Read More",
+        "moreServices": "More Services"
+
+    }
+}
