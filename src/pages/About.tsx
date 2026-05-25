@@ -1,7 +1,7 @@
 import Team from "../components/about/Team";
 
 import { useTranslation } from "react-i18next";
-import CountUp from "react-countup";
+// import CountUp from "react-countup";
 
 export default function About() {
 
