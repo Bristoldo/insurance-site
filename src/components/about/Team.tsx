@@ -1,9 +1,6 @@
-import { useTranslation } from "react-i18next";
 
 
 export default function Team() {
-
-    const { t } = useTranslation();
 
     return (
         <div className="container-fluid team py-5">
