@@ -1,17 +1,23 @@
+import { useTranslation } from "react-i18next";
+import logo from "../../assets/icons/logo.png";
+
 export default function Footer() {
+
+    const { t } = useTranslation();
+
     return (
 
         <div className="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
             <div className="container py-5">
                 <div className="row g-5">
-                    <div className="col-xl-9">
+                    <div className="col">
                         <div className="mb-5">
                             <div className="row g-4">
                                 <div className="col-md-6 col-lg-6 col-xl-5">
                                     <div className="footer-item">
-                                        <a href="index.html" className="p-0">
-                                            <h3 className="text-white"><i className="fab fa-slack me-3"></i> LifeSure</h3>
-                                            {/* <img src="img/logo.png" alt="Logo"> */}
+                                        <a href="/" className="py-3">
+                                            {/* <h3 className="text-white"><i className="fab fa-slack me-3"></i> LifeSure</h3> */}
+                                            <img src={logo} alt="Logo" className="img-fluid navbar-logo bg-light" />
                                         </a>
                                         <p className="text-white mb-4">Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum dolor sit amet, consectetur adipiscing...</p>
                                         <div className="footer-btn d-flex">
@@ -22,19 +28,19 @@ export default function Footer() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-md-6 col-lg-6 col-xl-3">
+                                <div className="col-md-6 col-lg-6 col-xl-3 py-3">
                                     <div className="footer-item">
-                                        <h4 className="text-white mb-4">Useful Links</h4>
-                                        <a href="#"><i className="fas fa-angle-right me-2"></i> About Us</a>
-                                        <a href="#"><i className="fas fa-angle-right me-2"></i> Features</a>
-                                        <a href="#"><i className="fas fa-angle-right me-2"></i> Services</a>
-                                        <a href="#"><i className="fas fa-angle-right me-2"></i> FAQ's</a>
-                                        <a href="#"><i className="fas fa-angle-right me-2"></i> Blogs</a>
-                                        <a href="#"><i className="fas fa-angle-right me-2"></i> Contact</a>
+                                        <h4 className="text-white mb-4">{t("footer.usefulLinks")}</h4>
+                                        <a href="#"><i className="fas fa-angle-right me-2"></i>{t("footer.aboutUs")}</a>
+                                        {/* <a href="#"><i className="fas fa-angle-right me-2"></i> Features</a> */}
+                                        <a href="#"><i className="fas fa-angle-right me-2"></i>Services</a>
+                                        <a href="#"><i className="fas fa-angle-right me-2"></i>{t("footer.faqs")}</a>
+                                        {/* <a href="#"><i className="fas fa-angle-right me-2"></i> Blogs</a> */}
+                                        <a href="#"><i className="fas fa-angle-right me-2"></i>{t("footer.contact")}</a>
                                     </div>
                                 </div>
                                 <div className="col-md-6 col-lg-6 col-xl-4">
-                                    <div className="footer-item">
+                                    {/* <div className="footer-item">
                                         <h4 className="mb-4 text-white">Instagram</h4>
                                         <div className="row g-3">
                                             <div className="col-4">
@@ -86,7 +92,7 @@ export default function Footer() {
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>
@@ -96,33 +102,33 @@ export default function Footer() {
                                     <div className="row g-4">
                                         <div className="col-lg-6 col-xl-4">
                                             <div className="d-flex">
-                                                <div className="btn-xl-square bg-primary text-white rounded p-4 me-4">
+                                                <div className="btn-xl-square bg-danger text-white rounded p-4 me-4">
                                                     <i className="fas fa-map-marker-alt fa-2x"></i>
                                                 </div>
                                                 <div>
-                                                    <h4 className="text-white">Address</h4>
-                                                    <p className="mb-0">123 Street New York.USA</p>
+                                                    <h4 className="text-white">{t("footer.address")}</h4>
+                                                    <p className="mb-0">Yaoundé & Douala - {t("footer.country")}</p>
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="col-lg-6 col-xl-4">
                                             <div className="d-flex">
-                                                <div className="btn-xl-square bg-primary text-white rounded p-4 me-4">
+                                                <div className="btn-xl-square bg-danger text-white rounded p-4 me-4">
                                                     <i className="fas fa-envelope fa-2x"></i>
                                                 </div>
                                                 <div>
-                                                    <h4 className="text-white">Mail Us</h4>
+                                                    <h4 className="text-white">{t("footer.contact")}</h4>
                                                     <p className="mb-0">info@example.com</p>
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="col-lg-6 col-xl-4">
                                             <div className="d-flex">
-                                                <div className="btn-xl-square bg-primary text-white rounded p-4 me-4">
+                                                <div className="btn-xl-square bg-danger text-white rounded p-4 me-4">
                                                     <i className="fa fa-phone-alt fa-2x"></i>
                                                 </div>
                                                 <div>
-                                                    <h4 className="text-white">Telephone</h4>
+                                                    <h4 className="text-white">{t("footer.telephone")}</h4>
                                                     <p className="mb-0">(+012) 3456 7890</p>
                                                 </div>
                                             </div>
@@ -162,12 +168,12 @@ export default function Footer() {
                         <div className="container">
                             <div className="row g-4 align-items-center">
                                 <div className="col-md-6 text-center text-md-end mb-md-0">
-                                    <span className="text-body"><a href="#" className="border-bottom text-white"><i className="fas fa-copyright text-light me-2"></i>Your Site Name</a>, All right reserved.</span>
+                                    <span className="text-body"><a href="#" className="border-bottom text-white"><i className="fas fa-copyright text-light me-2"></i>{t("site.name")}</a>, {t("footer.droits")}</span>
                                 </div>
                                 <div className="col-md-6 text-center text-md-start text-body">
                                     {/* The author’s attribution link must remain intact in the template.   */}
                                     {/* If you wish to remove this credit link, please purchase the Pro Version . */}
-                                    Designed By <a className="border-bottom text-white" href="https://htmlcodex.com">HTML Codex</a>
+                                    {/* Designed By <a className="border-bottom text-white" href="#">DKB</a> */}
                                 </div>
                             </div>
                         </div>

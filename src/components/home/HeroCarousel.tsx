@@ -26,7 +26,7 @@ export default function HeroCarousel() {
         <div
             className={
                 activeSlide === 1
-                    ? "carousel-blue-arrows"
+                    ? "carousel-red-arrows"
                     : "carousel-dark-arrows"
             }
         >
@@ -62,7 +62,7 @@ export default function HeroCarousel() {
                 {/* Slide 1 */}
                 <SwiperSlide>
 
-                    <div className="header-carousel-item bg-primary" style={{ minHeight: "700px" }}>
+                    <div className="header-carousel-item" style={{ minHeight: "700px", backgroundColor: "#212529" }}>
 
                         <div className="carousel-caption">
 
@@ -87,6 +87,11 @@ export default function HeroCarousel() {
                                                 {t("heroCarousel.description1")}
 
                                             </p>
+
+                                            {/* CTA */}
+                                            {/* <button className="btn btn-danger btn-lg">
+                                                Obtenir un devis gratuit
+                                            </button> */}
 
                                         </div>
 
@@ -115,7 +120,7 @@ export default function HeroCarousel() {
                 {/* Slide 2 */}
                 <SwiperSlide>
 
-                    <div className="header-carousel-item bg-dark" style={{ minHeight: "700px" }}>
+                    <div className="header-carousel-item " style={{ minHeight: "700px", backgroundColor: "#b02a37" }}>
 
                         <div className="carousel-caption">
 
@@ -164,6 +169,166 @@ export default function HeroCarousel() {
 
                 </SwiperSlide>
 
+                {/* Slide 3 */}
+                <SwiperSlide>
+
+                    <div className="header-carousel-item " style={{ minHeight: "700px", backgroundColor: "#343a40" }}>
+
+                        <div className="carousel-caption">
+
+                            <div className="container">
+
+                                <div className="row g-4 align-items-center">
+
+                                    <div className="col-lg-7 wow fadeInLeft" data-wow-delay="0.2s">
+
+                                        <div className="text-sm-center text-md-start">
+
+                                            <h4 className="text-white text-uppercase fw-bold mb-4">
+                                                {t("heroCarousel.subtitle3")}
+                                            </h4>
+
+                                            <h1 className="display-1 text-white mb-4">
+                                               {t("heroCarousel.title3")}
+
+                                            </h1>
+
+                                            <p className="mb-5 fs-5">
+                                                {t("heroCarousel.description3")}
+
+                                            </p>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div className="col-lg-5 wow fadeInRight" data-wow-delay="0.2s">
+
+                                        <img
+                                            src="/img/carousel-2.png"
+                                            className="img-fluid w-100"
+                                            alt=""
+                                        />
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </SwiperSlide>
+
+
+                {/* Slide 4 */}
+                <SwiperSlide>
+
+                    <div className="header-carousel-item " style={{ minHeight: "700px", backgroundColor: "#b02a37" }}>
+
+                        <div className="carousel-caption">
+
+                            <div className="container">
+
+                                <div className="row g-4 align-items-center">
+
+                                    <div className="col-lg-7 wow fadeInLeft" data-wow-delay="0.2s">
+
+                                        <div className="text-sm-center text-md-start">
+
+                                            <h4 className="text-white text-uppercase fw-bold mb-4">
+                                                {t("heroCarousel.subtitle4")}
+                                            </h4>
+
+                                            <h1 className="display-1 text-white mb-4">
+                                                {t("heroCarousel.title4")}
+
+                                            </h1>
+
+                                            <p className="mb-5 fs-5">
+                                                {t("heroCarousel.description4")}
+
+                                            </p>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div className="col-lg-5 wow fadeInRight" data-wow-delay="0.2s">
+
+                                        <img
+                                            src="/img/carousel-2.png"
+                                            className="img-fluid w-100"
+                                            alt=""
+                                        />
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </SwiperSlide>
+
+
+                {/* Slide 5 */}
+                <SwiperSlide>
+
+                    <div className="header-carousel-item " style={{ minHeight: "700px", backgroundColor: "#2b1d12" }}>
+
+                        <div className="carousel-caption">
+
+                            <div className="container">
+
+                                <div className="row g-4 align-items-center">
+
+                                    <div className="col-lg-7 wow fadeInLeft" data-wow-delay="0.2s">
+
+                                        <div className="text-sm-center text-md-start">
+
+                                            <h4 className="text-white text-uppercase fw-bold mb-4">
+                                                {t("heroCarousel.subtitle5")}
+                                            </h4>
+
+                                            <h1 className="display-1 text-white mb-4">
+                                                {t("heroCarousel.title5")}
+
+                                            </h1>
+
+                                            <p className="mb-5 fs-5">
+                                                {t("heroCarousel.description5")}
+
+                                            </p>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div className="col-lg-5 wow fadeInRight" data-wow-delay="0.2s">
+
+                                        <img
+                                            src="/img/carousel-2.png"
+                                            className="img-fluid w-100"
+                                            alt=""
+                                        />
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </SwiperSlide>
             </Swiper >
         </div>
     );

@@ -1,4 +1,8 @@
 {
+    "site": {
+        "name": "Sispen Inssurances"
+    },
+
     "topBar": {
         "location": "Trouver un emplacement",
         "english": "Anglais",
@@ -9,21 +13,46 @@
         "home": "Accueil",
         "services": "Services",
         "about": "À\u00A0propos",
-        "contact": "Nous contact"
+        "signIn": "Nous\u00A0rejoindre\u00A0?",
+        "contact": "Nous Contacter",
+        "callOurExperts": "Appelez nos experts",
+        "free": "Gratuit"
     },
 
     "heroCarousel": {
-        "title1": "L'assurance vie vous rend heureux",
-        "subtitle1": "Bienvenue chez LifeSure",
-        "description1": "Protégez votre avenir avec nos solutions d'assurance.",
+        "title1": "Protégez votre avenir dès aujourd’hui",
+        "subtitle1": "Bienvenue chez Sispen Assurances",
+        "description1": "Obtenez une couverture complète pour vous, votre famille et vos biens en quelques minutes.",
 
-        "title2": "Sécurisez votre famille pour demain",
-        "subtitle2": "Nous sommes mondiaux",
-        "description2": "Des solutions d'assurance pour votre avenir."
+        "title2": "Auto, santé, habitation et plus...",
+        "subtitle2": "Nos solutions d’assurance",
+        "description2": "Choisissez une protection adaptée à votre vie avec des formules simples et flexibles.",
+
+        "title3": "+10 000 clients assurés",
+        "subtitle3": "Pourquoi nous choisir ?",
+        "description3": "Une expérience fiable avec un service client disponible 24/7 et des remboursements rapides.",
+
+        "title4": "Souscrivez en 3 étapes simples",
+        "subtitle4": "Comment ça marche ?",
+        "description4": "Comparez, choisissez et obtenez votre assurance en ligne sans paperasse inutile.",
+
+        "title5": "Nous sommes toujours à vos côtés",
+        "subtitle5": " Assistance 24/7",
+        "description5": "En cas de sinistre ou de question, notre équipe vous accompagne à tout moment."
     },
 
     "home": {
 
+    },
+
+    "team": {
+        "subtitle": "Notre équipe",
+        "title": "Découvrez notre équipe d'experts",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.",
+        "profession1": "Profession",
+        "profession2": "Profession",
+        "profession3": "Profession",
+        "profession4": "Profession"
     },
 
     "about": {
@@ -57,5 +86,17 @@
         "readMore": "Lire plus",
         "moreServices": "Plus de Services"
 
+    },
+
+    "footer": {
+        "usefulLinks": "Liens utiles",
+        "aboutUs": "À propos de nous",
+        "faqs": "FAQ's",
+        "contact": "Contact",
+        "address": "Adresse",
+        "country": "Cameroun",
+        "mailUs": "Écrivez-nous",
+        "telephone": "Téléphone",
+        "droits": "Tous droits réservés."
     }
 }

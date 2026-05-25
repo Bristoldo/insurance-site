@@ -1,4 +1,7 @@
 {
+    "site": {
+        "name": "Sispen Insurance"
+    },
 
     "topBar": {
         "location": "Find A Location",
@@ -9,27 +12,48 @@
     "navBar": {
         "home": "Home",
         "services": "Services",
-        "about": "About",
-        "contact": "Contact Us"
+        "about": "About\u00A0us",
+        "signIn": "Join\u00A0us\u00A0?",
+        "contact": "Contact Us",
+        "callOurExperts": "Call to Our Experts",
+        "free": "Free"
+
     },
 
     "heroCarousel": {
-        "title1": "Life Insurance Makes You Happy",
-        "subtitle1": "Welcome To LifeSure",
-        "description1": "Protect your future with our insurance solutions.",
+        "title1": "Protect your future today",
+        "subtitle1": "Welcome to Sispen Insurance",
+        "description1": "Get complete coverage for yourself, your family, and your property in just a few minutes.",
 
-        "title2": "Secure Your Family Today for Tomorrom",
-        "subtitle2": "We are global",
-        "description2": "Insurance solutions for your future."
+        "title2": "Auto, health, home, and more...",
+        "subtitle2": "Our insurance solutions",
+        "description2": "Choose protection tailored to your life with simple and flexible plans.",
+
+        "title3": "10,000+ insured clients",
+        "subtitle3": "Why choose us?",
+        "description3": "A reliable experience with 24/7 customer support and fast reimbursements.",
+
+        "title4": "Subscribe in 3 simple steps",
+        "subtitle4": "How does it work?",
+        "description4": "Compare, choose, and get your insurance online without unnecessary paperwork.",
+
+        "title5": "We are always by your side",
+        "subtitle5": "24/7 Assistance",
+        "description5": "In the event of a claim or a question, our team supports you at all times."
     },
 
     "home": {
 
-
     },
 
     "team": {
-
+        "subtitle": "Our Team",
+        "title": "Meet Our Expert Team Members",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.",
+        "profession1": "Profession",
+        "profession2": "Profession",
+        "profession3": "Profession",
+        "profession4": "Profession"
     },
 
     "about": {
@@ -58,9 +82,23 @@
 
         "service4": "Home Insurance",
         "description4": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, eum!",
-        
+
         "readMore": "Read More",
         "moreServices": "More Services"
 
+    },
+
+    "footer": {
+        "usefulLinks": "Useful Links",
+        "aboutUs": "About Us",
+        "faqs": "FAQ's",
+        "contact": "Contact",
+        "address": "Address",
+        "country": "Cameroon",
+        "mailUs": "Mail Us",
+        "telephone": "Telephone",
+        "droits": "All right reserved."
     }
+
+
 }
